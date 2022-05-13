@@ -1,0 +1,16 @@
+_id: env_5380a63cecdc521cf690def9c4c9c171f598acdc
+type: Environment
+parentId: wrk_30924e294ce942f8b3f3ce500be607cc
+modified: 1652323883583
+created: 1652230151773
+name: Base Environment
+data:
+  url2: http://localhost:8000
+  url: http://localhost/rgwebback/public
+dataPropertyOrder:
+  "&":
+    - url2
+    - url
+color: null
+isPrivate: false
+metaSortKey: 1652230151773

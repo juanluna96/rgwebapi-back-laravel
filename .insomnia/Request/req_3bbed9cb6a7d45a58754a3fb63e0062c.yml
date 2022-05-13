@@ -1,0 +1,29 @@
+_id: req_3bbed9cb6a7d45a58754a3fb63e0062c
+type: Request
+parentId: fld_869fb190a01b4195ab65d1e008cac4a9
+modified: 1652412161349
+created: 1652238690012
+url: "{{ _.auth }}/me"
+name: Me
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_5e7a599ef27b44acaa6223b3be00641d
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_b291876405fa46fea150c1f95a5a9542',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+  disabled: true
+metaSortKey: -1652238690012
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_b291876405fa46fea150c1f95a5a9542
+type: Request
+parentId: fld_869fb190a01b4195ab65d1e008cac4a9
+modified: 1652408516643
+created: 1652238703704
+url: "{{ _.auth }}/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_592826932e524ea7b125d3ef84c49882
+      name: email
+      value: juandluna17@gmail.com
+      description: ""
+    - id: pair_65d74609590e450d934a130e74f0e7b9
+      name: password
+      value: juanluna17
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_6b882ff0bf1c4eff8c31a40f3f65737d
+authentication: {}
+metaSortKey: -1652238703704
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

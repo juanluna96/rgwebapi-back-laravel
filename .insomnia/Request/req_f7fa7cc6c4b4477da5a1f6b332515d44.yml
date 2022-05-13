@@ -1,0 +1,40 @@
+_id: req_f7fa7cc6c4b4477da5a1f6b332515d44
+type: Request
+parentId: fld_883442df0a14425096a94138fbb5cefd
+modified: 1652447135228
+created: 1652409620604
+url: "{{ _.roles }}"
+name: Store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"role":"Client",
+    	"permissions":[
+    		"Buy","Sell"
+    	]
+    }
+parameters: []
+headers:
+  - id: pair_5e7a599ef27b44acaa6223b3be00641d
+    name: Accept
+    value: application/json
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_617170da9c804abda3f7fb21397c3618
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_b291876405fa46fea150c1f95a5a9542',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+  disabled: false
+metaSortKey: -1652323502696.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

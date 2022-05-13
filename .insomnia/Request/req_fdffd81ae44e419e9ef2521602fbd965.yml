@@ -1,0 +1,21 @@
+_id: req_fdffd81ae44e419e9ef2521602fbd965
+type: Request
+parentId: fld_883442df0a14425096a94138fbb5cefd
+modified: 1652411385578
+created: 1652411376421
+url: "{{ _.roles }}/1"
+name: Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1652411376421
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_893df4cfa5044eccabe449b155ab2356
+type: Request
+parentId: fld_883442df0a14425096a94138fbb5cefd
+modified: 1652412188339
+created: 1652408473869
+url: "{{ _.roles }}"
+name: Index
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5e7a599ef27b44acaa6223b3be00641d
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_b291876405fa46fea150c1f95a5a9542',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+  disabled: false
+metaSortKey: -1652408301689
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

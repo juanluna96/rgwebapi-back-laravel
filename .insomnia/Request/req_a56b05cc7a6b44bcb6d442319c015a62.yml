@@ -1,0 +1,55 @@
+_id: req_a56b05cc7a6b44bcb6d442319c015a62
+type: Request
+parentId: fld_869fb190a01b4195ab65d1e008cac4a9
+modified: 1652411220844
+created: 1652230151786
+url: "{{ _.auth }}/register"
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_a3b82c59911c4866a9137f6fc4b0677c
+      name: name
+      value: Juan Diego
+      description: ""
+      disabled: false
+    - id: pair_2cde030aa622440bacce8ce8d24eac19
+      name: email
+      value: juandluna17@gmail.com
+      description: ""
+    - id: pair_3d7f6148465649858066b3dc6a9a2c19
+      name: password
+      value: juanluna17
+      description: ""
+    - id: pair_8ecb812f56294e62b28dba5723359185
+      name: address
+      value: "Calle 25 # 8 - 28W"
+      description: ""
+    - id: pair_8d2108a9628443e8ad05d70fe017cf6f
+      name: phone
+      value: "3183397333"
+      description: ""
+    - id: pair_c56076fb160f481b98ad6c45decd9ba3
+      name: password_confirmation
+      value: juanluna17
+      description: ""
+    - id: pair_0069791d0641400291d8a6097c4bb0bb
+      name: role
+      value: Client
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_de8172dd619047de8527a7e18b323de1
+authentication: {}
+metaSortKey: -1652230151786
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

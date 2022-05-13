@@ -1,0 +1,16 @@
+_id: env_f16c92f6f4814c70b68f950af36ca484
+type: Environment
+parentId: env_5380a63cecdc521cf690def9c4c9c171f598acdc
+modified: 1652409137229
+created: 1652237727744
+name: Development
+data:
+  auth: "{{ _.url }}/auth"
+  roles: "{{ _.auth }}/roles"
+dataPropertyOrder:
+  "&":
+    - auth
+    - roles
+color: "#5ad425"
+isPrivate: false
+metaSortKey: 1652237727744

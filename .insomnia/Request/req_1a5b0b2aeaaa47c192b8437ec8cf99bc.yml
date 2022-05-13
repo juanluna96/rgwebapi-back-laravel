@@ -1,0 +1,40 @@
+_id: req_1a5b0b2aeaaa47c192b8437ec8cf99bc
+type: Request
+parentId: fld_883442df0a14425096a94138fbb5cefd
+modified: 1652411639331
+created: 1652411497215
+url: "{{ _.roles }}/1"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"role":"Client2",
+    	"permissions":[
+    		"Buy","Sell2"
+    	]
+    }
+parameters: []
+headers:
+  - id: pair_5e7a599ef27b44acaa6223b3be00641d
+    name: Accept
+    value: application/json
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_617170da9c804abda3f7fb21397c3618
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_b291876405fa46fea150c1f95a5a9542',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+  disabled: false
+metaSortKey: -1652281103200.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

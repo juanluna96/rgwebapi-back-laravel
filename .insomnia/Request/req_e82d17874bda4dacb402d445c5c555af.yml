@@ -1,0 +1,29 @@
+_id: req_e82d17874bda4dacb402d445c5c555af
+type: Request
+parentId: fld_869fb190a01b4195ab65d1e008cac4a9
+modified: 1652408523390
+created: 1652240148068
+url: "{{ _.auth }}/refresh"
+name: Refresh
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_5e7a599ef27b44acaa6223b3be00641d
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_b291876405fa46fea150c1f95a5a9542',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+  disabled: false
+metaSortKey: -1652234420899
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
